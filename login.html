@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Login — ALVANDORES</title>
+
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         LOGIN PAGE
+    ========================= -->
+
+    <main class="login-page">
+
+        <div class="login-container">
+
+            <!-- LEFT -->
+            <div class="login-intro">
+
+                <p class="eyebrow">WELCOME BACK</p>
+
+                <h1>
+                    Welcome<br>
+                    <strong>Back.</strong>
+                </h1>
+
+                <p class="login-description">
+                    Masuk ke akun kamu untuk melanjutkan
+                    ke portfolio ALVANDORES.
+                </p>
+
+                <div class="login-status">
+                    <span></span>
+                    <p>System Online</p>
+                </div>
+
+            </div>
+
+
+            <!-- LOGIN CARD -->
+            <div class="login-card">
+
+                <div class="login-card-top">
+                    <span>LOGIN / 001</span>
+                    <span>● SECURE</span>
+                </div>
+
+
+                <div class="login-card-content">
+
+                    <div class="login-heading">
+                        <p>ACCOUNT ACCESS</p>
+                        <h2>Sign in.</h2>
+                    </div>
+
+
+                    <form id="loginForm">
+
+                        <!-- USERNAME -->
+                        <div class="input-group">
+
+                            <label for="username">
+                                USERNAME
+                            </label>
+
+                            <input
+                                type="text"
+                                id="username"
+                                name="username"
+                                placeholder="Enter your username"
+                                autocomplete="username"
+                                required
+                            >
+
+                        </div>
+
+
+                        <!-- PASSWORD -->
+                        <div class="input-group">
+
+                            <label for="password">
+                                PASSWORD
+                            </label>
+
+                            <div class="password-wrapper">
+
+                                <input
+                                    type="password"
+                                    id="password"
+                                    name="password"
+                                    placeholder="Enter your password"
+                                    autocomplete="current-password"
+                                    required
+                                >
+
+                                <button
+                                    type="button"
+                                    id="showPassword"
+                                    class="show-password"
+                                >
+                                    SHOW
+                                </button>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- OPTIONS -->
+                        <div class="login-options">
+
+                            <label class="remember">
+
+                                <input
+                                    type="checkbox"
+                                    id="remember"
+                                >
+
+                                <span>Remember me</span>
+
+                            </label>
+
+                            <a href="#" class="forgot">
+                                Forgot password?
+                            </a>
+
+                        </div>
+
+
+                        <!-- BUTTON -->
+                        <button
+                            type="submit"
+                            class="login-button"
+                        >
+                            <span>LOGIN</span>
+                            <span>→</span>
+                        </button>
+
+
+                        <!-- MESSAGE -->
+                        <p
+                            id="loginMessage"
+                            class="login-message"
+                        ></p>
+
+                    </form>
+
+
+                    <div class="login-footer">
+
+                        <span>DON'T HAVE AN ACCOUNT?</span>
+
+                        <a href="#">
+                            CREATE ACCOUNT
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <!-- METEOR -->
+    <div class="meteor-container">
+
+        <div
+            class="meteor"
+            style="left: 15%; top: 10%; animation-duration: 3s;"
+        ></div>
+
+        <div
+            class="meteor"
+            style="left: 40%; top: 20%; animation-duration: 4s;"
+        ></div>
+
+        <div
+            class="meteor"
+            style="left: 70%; top: 5%; animation-duration: 3.5s;"
+        ></div>
+
+        <div
+            class="meteor"
+            style="left: 85%; top: 35%; animation-duration: 4.5s;"
+        ></div>
+
+    </div>
+
+
+    <script src="login.js"></script>
+
+</body>
+</html> 
